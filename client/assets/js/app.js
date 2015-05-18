@@ -27,11 +27,6 @@
     $locationProvider.hashPrefix('!');
   }
 
-function jsonLoad() {
-  var mydata = JSON.parse(data);
-  alert(mydata[0].specialty);
-}
-
   function run() {
     FastClick.attach(document.body);
   }

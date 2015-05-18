@@ -175,11 +175,4 @@ gulp.task('default', ['server'], function () {
   gulp.watch(['./client/templates/**/*.html'], ['copy:templates']);
 });
 
-// run karma test once and exit
 
-gulp.task('test', function(done){
-  karma.start({
-    configFile: 'my.conf.js',
-    singleRun: true
-  }, done);
-});
