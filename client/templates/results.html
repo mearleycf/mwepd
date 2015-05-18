@@ -1,13 +1,14 @@
 ---
 name: results
 url: /results
-controller: ProvidersCtrl
 ---
 
 <div class="grid-container">
 	<div class="grid-block">
 		<div class="grid-content">
-			{{providers}}
+			<div ng-controller="ProvidersCtrl">
+			  {{ providers[0].specialty }}
+			</div>
 		</div>
 	</div>
 </div>

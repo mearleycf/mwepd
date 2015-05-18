@@ -1,4 +1,4 @@
-providers = '[
+[
   {
     "specialty": "Cardiovascular Disease",
     "registered": "Sunday, January 25, 2015 5:37 AM",
@@ -824,4 +824,4 @@ providers = '[
     "index": 54,
     "_id": "55595e5224a912b264aae036"
   }
-]';
+]
