@@ -1,0 +1,393 @@
+"providers": [{
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2IHykBA1d4ubjLSD",
+      "_score": 8.251086,
+      "_source": {
+        "member": {
+          "uid": 71246,
+          "last_name": "Harris",
+          "first_name": "Tasia",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "tharris@illinois.emadirect.md",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 9077,
+          "npi": null,
+          "name": "Illinois Dermatology Institute",
+          "address_line_1": null,
+          "address_line_2": null,
+          "city": null,
+          "state": null,
+          "zipcode": null,
+          "zipcode_plus_four": null,
+          "phone": null,
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2t6HkBA1d4ubjRAJ",
+      "_score": 8.251086,
+      "_source": {
+        "member": {
+          "uid": 111994,
+          "last_name": "Harris",
+          "first_name": "Thelissa",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "thelissa@harris.updoxdirect.com",
+          "is_provider": 1,
+          "active": 1
+        },
+        "practice": {
+          "uid": 14121,
+          "npi": null,
+          "name": "Thelissa A Harris Md",
+          "address_line_1": null,
+          "address_line_2": null,
+          "city": null,
+          "state": null,
+          "zipcode": null,
+          "zipcode_plus_four": null,
+          "phone": null,
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2FfBkBA1d4ubjK6M",
+      "_score": 8.106219,
+      "_source": {
+        "member": {
+          "uid": 130634,
+          "last_name": "Harris",
+          "first_name": "David",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "dharris@rgh.securechart.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 8828,
+          "npi": null,
+          "name": "Rappahannock General Hospital",
+          "address_line_1": "101 Harris Rd",
+          "address_line_2": null,
+          "city": "Kilmarnock",
+          "state": "VA",
+          "zipcode": "22482",
+          "zipcode_plus_four": null,
+          "phone": "8044358000",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2GSnkBA1d4ubjLAd",
+      "_score": 8.106219,
+      "_source": {
+        "member": {
+          "uid": 73477,
+          "last_name": "Harris",
+          "first_name": "Kelli",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "kharris@wchs.securechart.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 8930,
+          "npi": null,
+          "name": "West Carroll Health Systems",
+          "address_line_1": "706 Ross Street",
+          "address_line_2": null,
+          "city": "Oak Grove",
+          "state": "LA",
+          "zipcode": "71263",
+          "zipcode_plus_four": null,
+          "phone": "3184283237",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2l8ikBA1d4ubjPzC",
+      "_score": 8.106219,
+      "_source": {
+        "member": {
+          "uid": 97850,
+          "last_name": "Harris",
+          "first_name": "Justin",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "jharris@nebraskaortho.gwaydirect.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 12340,
+          "npi": null,
+          "name": "Nebraska Orthopaedic And Sports Medicine",
+          "address_line_1": "Nebraska Orthopaedic And Sports Medicine P.C.",
+          "address_line_2": "575 S. 70 Th Suite 200",
+          "city": "Lincoln",
+          "state": "NE",
+          "zipcode": "6851",
+          "zipcode_plus_four": null,
+          "phone": "4027303663",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu215TkBA1d4ubjSOi",
+      "_score": 8.106219,
+      "_source": {
+        "member": {
+          "uid": 126751,
+          "last_name": "Harris",
+          "first_name": "Michael",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "mharris@wwmc.gwaydirect.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 15949,
+          "npi": null,
+          "name": "White Wilson Medical Center, P.A",
+          "address_line_1": "1005 Mar Walt Dr",
+          "address_line_2": "Ob/Gyn Department",
+          "city": "Fort Walton Beach",
+          "state": "FL",
+          "zipcode": "3254",
+          "zipcode_plus_four": null,
+          "phone": "8508638215",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu26aXkBA1d4ubjS7S",
+      "_score": 8.106219,
+      "_source": {
+        "member": {
+          "uid": 138502,
+          "last_name": "Harris",
+          "first_name": "Brenda",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "bharris@customeyeskc1.eyefinitydirect.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 17298,
+          "npi": null,
+          "name": "Custom Vision, Inc.",
+          "address_line_1": "3465 Ne Ralph Powell Rd.",
+          "address_line_2": null,
+          "city": "Lees Summit",
+          "state": "MO",
+          "zipcode": "81652",
+          "zipcode_plus_four": null,
+          "phone": "8165247400",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2GdekBA1d4ubjLB7",
+      "_score": 7.863457,
+      "_source": {
+        "member": {
+          "uid": 112788,
+          "last_name": "Harris",
+          "first_name": "Eugene",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "harrise02@hhss.securechart.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 8951,
+          "npi": null,
+          "name": "Houston Hospital For Specialty Surgery",
+          "address_line_1": "5445 La Branch Street",
+          "address_line_2": null,
+          "city": "Houston",
+          "state": "TX",
+          "zipcode": "77004",
+          "zipcode_plus_four": null,
+          "phone": "7135286800",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2endkBA1d4ubjOs1",
+      "_score": 7.863457,
+      "_source": {
+        "member": {
+          "uid": 80846,
+          "last_name": "Harris",
+          "first_name": "Howard",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "hharris@texasorthopedicspecialists.gwaydirect.com",
+          "is_provider": 0,
+          "active": 1
+        },
+        "practice": {
+          "uid": 11116,
+          "npi": null,
+          "name": "Texas Orthopedic Specialists",
+          "address_line_1": "4100 Heritage Ave",
+          "address_line_2": "Suite 102",
+          "city": "Grapevine",
+          "state": "TX",
+          "zipcode": "76051",
+          "zipcode_plus_four": null,
+          "phone": "8173719389",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }, {
+      "_index": "directory",
+      "_type": "item",
+      "_id": "AUwu2nBtkBA1d4ubjP9J",
+      "_score": 7.863457,
+      "_source": {
+        "member": {
+          "uid": 96928,
+          "last_name": "Harris",
+          "first_name": "Debbie",
+          "middle_name": null,
+          "suffix": null,
+          "salutation": null,
+          "specialty": null,
+          "healthcare_service_class": null,
+          "npi": null,
+          "direct_address": "hard@schonhofeneyecare.eyefinitydirect.com",
+          "is_provider": 0,
+          "active": 0
+        },
+        "practice": {
+          "uid": 12515,
+          "npi": null,
+          "name": "Schonhofen Optometry, Pa",
+          "address_line_1": "346 N. Bridge Street",
+          "address_line_2": null,
+          "city": "Elkin",
+          "state": "NC",
+          "zipcode": "28621",
+          "zipcode_plus_four": null,
+          "phone": "3368351312",
+          "healthcare_service_class": null,
+          "specialty": null
+        },
+        "data_source": "updox",
+        "hisp_operator": "updox",
+        "loa": 3,
+        "search_opt_out": 0
+      }
+    }]
+  }
+}
