@@ -6152,6 +6152,12 @@ blockquote, blockquote p {
 .bold {
   font-weight: 700; }
 
+.textRight {
+  text-align: right; }
+
+.margin1rem {
+  margin: 1rem; }
+
 svg.medium64.iconic.iconic-md:not(.iconic-size-sm):not(.iconic-size-lg) {
   width: 64px;
   height: 64px; }
@@ -6227,9 +6233,21 @@ svg.medium64.iconic.iconic-md:not(.iconic-size-sm):not(.iconic-size-lg) {
       -ms-flex-align: center;
           align-items: center; }
 
+.flexNone {
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none; }
+
 /* custom modules */
 .navbar {
   display: block;
+  padding: 0 1rem;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   padding: 0 1rem;
   margin-bottom: 1rem;
   box-shadow: 0px 2px 3px 0px rgba(136, 136, 136, 0.5); }
@@ -6253,3 +6271,72 @@ svg.medium64.iconic.iconic-md:not(.iconic-size-sm):not(.iconic-size-lg) {
 
 .card-section svg.medium64 {
   margin: 0 1rem 0 0; }
+
+.providerContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.providerCard {
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  background: #fdfdfd;
+  padding: .5rem;
+  margin: .25rem;
+  width: 400px; }
+
+.providerName {
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: .25rem; }
+
+.providerContact, .providerAddress, .providerPractice {
+  padding: .25rem;
+  font-size: .75rem;
+  line-height: .9rem; }
+
+.providerEmail {
+  padding: .25rem;
+  font-size: .9rem;
+  line-height: 1.2rem; }
+
+.providerSpecialty {
+  font-size: .75rem;
+  padding: .25rem;
+  line-height: 1rem;
+  font-style: italic;
+  color: #003366; }
+
+.button {
+  margin: .5rem 0 0 .5rem;
+  border-radius: 5px; }
+
+.action {
+  padding: .25rem 1rem;
+  background: #009966;
+  margin: .25rem;
+  border-radius: 3px;
+  border-bottom: 2px solid #006633;
+  color: white;
+  font-weight: bold;
+  text-shadow: gray 0 -1px; }
+
+.action.disabled {
+  background: #BFBFBF;
+  border-bottom: none;
+  color: #7F7F7F;
+  text-shadow: none; }
+
+.designerNote {
+  margin: .25rem;
+  padding: .25rem;
+  background-color: #FFCCFF;
+  color: #660099;
+  font-size: .75rem;
+  line-height: 1rem;
+  border-radius: 5px;
+  border: 1px solid #660099;
+  width: 100%; }

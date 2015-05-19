@@ -2,8 +2,94 @@
 <div class="grid-container">
 	<div class="grid-block">
 		<div class="grid-content">
-			<div ng-controller="ProvidersCtrl">
-			  {{ providers[0].specialty }}
+			<form action="">
+				<span class="inline-label">
+					<input type="search" placeholder="Search for a Provider">
+					<a ui-sref="results" class="button">Search</a>
+				</span>
+			</form>
+		</div>
+	</div>
+	<!-- end search row -->
+	<div class="grid-block">
+		<div class="designerNote">The active search parameters would be displayed in the Search fieled, if the search field worked. As the user typed, the results would dynamically filter.</div>
+	</div>
+	<div class="grid-block">
+		<div class="grid-content">
+			<div class="multipleActionsContainer">
+			  	<div class="flex isRow jStart aCenter">
+			  			<div class="secondary button large">
+			  				<img zf-iconic=" " icon="star" size="small">Save Selected Providers
+			  			</div>
+			  			<div class="secondary button large">
+			  				<img zf-iconic=" " icon="document" size="small">Print Selected Providers
+			  			</div>
+			  	</div>
+			 </div>
+		</div>
+	</div>
+	<div class="grid-block">
+		<div class="designerNote"><span class="bold">Note:</span>The buttons would change from gray (disabled) to green (active) once the user clicked on a provider; the user can select multiple providers, clicking their 'checkmarks'.</div>
+	</div>
+	<div class="grid-block">
+		<div class="grid-content">
+			<div ng-controller="ProvidersCtrl" class="providerContainer">
+			  <div ng-repeat="provider in providers" class="providerCard">
+			  	<div class="flex isRow jSpaceBetween">
+			  		<div class="providerName">
+				  		{{ provider.first_name + " " + provider.last_name }}
+				  	</div>
+				  	<div class="providerPractice">
+				  		<span class="bold">Practice: </span>{{provider.practice}}
+				  	</div>
+				</div>
+				<div class="flex isRow jStart">
+					<div class="providerSpecialty">
+						{{provider.specialty}}
+					</div>
+				</div>
+			  	<div class="flex isRow jSpaceBetween">
+			  		<div class="flex isColumn jStart">
+			  			<div class="providerAddress">
+			  				{{provider.address1}}
+			  			</div>
+			  			<div class="providerAddress">
+			  			{{provider.city + ", " + provider.state + " " + provider.zip}}
+			  			</div>
+			  		</div>
+			  		<div class="flex isColumn jEnd flexNone">
+			  			<div class="providerContact textRight">
+			  				<span class="bold">Phone:</span>
+			  				{{provider.phone}}
+			  			</div>
+			  			<div class="providerContact textRight">
+			  				<span class="bold">Fax:</span>
+			  				{{provider.fax}}
+			  			</div>
+			  		</div>
+			  	</div>
+			  	<div class="flex isRow jStart">
+			  		<div class="providerEmail">
+			  			<a href="mailto:{{provider.email}}">{{provider.email}}</a>
+			  		</div>
+			  	</div>
+			  	<hr>
+			  	<div class="actionsContainer">
+			  		<div class="flex isRow jSpaceBetween aCenter">
+			  			<div class="secondary button">
+			  				<img zf-iconic=" " icon="circle-check" size="small">
+			  			</div>
+			  			<div class="flex isRow jEnd aCenter">
+				  			<div class="success button">
+				  				<img zf-iconic=" " icon="star" size="small">Save
+				  			</div>
+				  			<div class="success button">
+				  				<img zf-iconic=" " icon="document" size="small">Print
+				  			</div>
+				  		</div>
+			  		</div>
+			  	</div>
+			  </div>
 			</div>
 		</div>
 	</div>
